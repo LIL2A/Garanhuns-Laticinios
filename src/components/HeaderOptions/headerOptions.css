@@ -1,0 +1,37 @@
+.headerOptions{
+    display: flex;
+    flex-direction: row;
+    
+    align-items:center;
+    background-color: #0893B1;
+    margin: 0px;
+    padding: 30px;
+    border-radius: 0px 0px 30px 30px; ;
+    
+}
+    
+.headerOptions p{
+    font-size: 22px;
+    color: white;
+}
+
+.optionsInfo{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    gap: 15px;
+    
+    
+}
+
+.headerOptions icon{
+    height: 100px;
+
+}
+
+.icon{
+    font-size: 30px;
+    color: white;
+}

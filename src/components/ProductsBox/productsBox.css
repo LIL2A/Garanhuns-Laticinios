@@ -1,0 +1,19 @@
+.productBox{
+    background-color:#0893B1;
+    padding: 100px 50px 10px 50px;
+    margin: 30% 10% 10% 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    width: 38%;
+   
+}
+
+.productBox a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}

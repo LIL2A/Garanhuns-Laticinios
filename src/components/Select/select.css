@@ -1,0 +1,15 @@
+.select-style{
+    margin-top: 15px;
+    font-size: 20px;
+    border: 1px solid blue;
+    border-radius: 12px;
+    padding: 12px;
+    width: 80%;
+}
+
+.select-style option{
+    font-size: 14px;
+    background-color: #f8f8f8;
+    color: #666;
+    padding: 8px;
+}

@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    gap: 14px;
+    flex-direction: column;
+    background-color: #0893B1;
+    color: #C8F7FE;
+    border-radius: 0px 0px 30px 30px;
+    padding: 87px 32px 24px 32px;
+}
+
+.header input{
+    border-radius: 7px;
+    border: none;
+    font-size: 18px;
+    padding: 7px;
+    margin: 0px 50px 0px 0px;
+    outline: none;
+}
+
+.header p{
+    font-size: 24px;
+    padding: 2px;
+    margin: 0px 0px 10px 0px;
+}

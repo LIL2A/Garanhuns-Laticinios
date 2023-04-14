@@ -1,0 +1,13 @@
+.input-style{
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 9px;
+    margin: 12px 20px 10px 0px;
+    border: 2px solid #edf8fa;
+    background-color: #0893B1;
+    outline: #67d4e7;
+}
+
+.input-style ::placeholder{
+    color: white;
+}

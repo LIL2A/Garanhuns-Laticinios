@@ -1,0 +1,43 @@
+.menuSide{
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.menuSide .menu{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background: #005E73;
+  color: #C8F7FE;
+  font-size: 30px;
+  text-align: right;
+  align-items: end;
+  gap: 24px;
+  padding: 32px 30px 0 64px;
+}
+.menuSide .menu a{
+  text-decoration: none;
+  color: #C8F7FE
+}
+
+.menuSide .menu nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:24px;
+}
+
+.menuSide .menu nav #exit{
+  text-decoration: underline !important;
+  color: #FF7C7C !important;
+}
+
+.menuSide #menuButton{
+  position: fixed;
+  top: 64px;
+  right: 20px;
+}

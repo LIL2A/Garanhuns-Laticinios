@@ -1,0 +1,26 @@
+.addButton button{
+    background-color: #005E73;
+    border: none;
+    border-radius: 100px;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.inserir-button{
+    background-color: #005E73;
+    border: none;
+    padding: 15px 55px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    color: white;
+}

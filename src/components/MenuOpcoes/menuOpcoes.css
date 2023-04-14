@@ -1,0 +1,13 @@
+.menuOpcoes {
+    width: 64px;
+    height: 64px;
+    border-radius: 18px;
+    border: none;
+    background-color: #0893B1;
+    
+}
+
+.menuOpcoes button{
+    cursor: pointer;
+}
+
