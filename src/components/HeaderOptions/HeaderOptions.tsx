@@ -12,8 +12,8 @@ const HeaderOptions = ({texto, img}: HeaderOptionsProps) => {
     <div className='headerOptions'>
           <Link to="/"><ImArrowLeft className='icon'/></Link>
         <div className='optionsInfo'>
-                {img}
             <p>{texto}</p>
+                {img}
         </div>
     </div>
   )

@@ -1,18 +1,17 @@
 import './boxes.css'
 
 interface BoxesProps{
-    titulo?: string,
-    ordem?: string,
+    
+    informacao?: string,
     children?: React.ReactNode,
     link?: string
 }
 
-const Boxes = ({titulo, ordem, children, link}: BoxesProps) => {
+const Boxes = ({informacao, children, link}: BoxesProps) => {
   return (
     <div className='boxe-style'>
-      <p>{titulo}</p>
       <div className='ordem-Servico'>
-        <p>{ordem}</p>
+        <p>{informacao}</p>
         <div>
             {children}
         </div>

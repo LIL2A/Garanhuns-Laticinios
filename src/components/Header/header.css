@@ -2,8 +2,8 @@
     display: flex;
     gap: 14px;
     flex-direction: column;
-    background-color: #0893B1;
-    color: #C8F7FE;
+    background-color: #C8F7FE;
+    color: #000000;
     border-radius: 0px 0px 30px 30px;
     padding: 87px 32px 24px 32px;
 }

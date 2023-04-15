@@ -8,6 +8,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import TelaRegistros from "./pages/TelaRegistros";
 import TelaEstoque from "./pages/TelaEstoque";
 import TelaEntregas from "./pages/TelaEntregas";
+import TelaCatalogo from "./pages/TelaCatalogo";
+
 
 
 
@@ -24,6 +26,8 @@ function App() {
           <Route path="/TelaRegistros" element={<TelaRegistros/>} />
           <Route path="/TelaEstoque" element={<TelaEstoque/>} />
           <Route path="/TelaEntregas" element={<TelaEntregas/>} />
+          <Route path="/TelaCatalogo" element={<TelaCatalogo/>} />
+
         </Routes>
       </Router>
 

@@ -1,19 +1,18 @@
 .productBox{
-    background-color:#0893B1;
-    padding: 100px 50px 10px 50px;
-    margin: 30% 10% 10% 10px;
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: space-between;
-    text-align: center;
+    padding: 20px 12px;
+    width: 80%;
+    height: 80%;
+    background-color:#C8F7FE;
     border-radius: 15px;
-    color: white;
-    width: 38%;
-   
+    
 }
 
 .productBox a{
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    color: #000000;
 }

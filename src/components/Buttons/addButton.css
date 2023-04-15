@@ -12,15 +12,20 @@
     position: fixed;
     right: 20px;
     bottom: 20px;
+    
 }
 
 .inserir-button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     background-color: #005E73;
     border: none;
-    padding: 15px 55px;
+    padding: 15px 50px;
     border-radius: 15px;
     margin-top: 20px;
     margin-left: 80px;
     font-size: 18px;
     color: white;
+    width: 40%;
 }

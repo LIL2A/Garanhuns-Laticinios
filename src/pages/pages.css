@@ -1,7 +1,14 @@
 .product-style{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 10px 0px 25px;
+    gap: 12px;
+}
+
+.product-style img{
+    width: 90px;
+    padding: 20px;
 }
 
 .buttons img{
@@ -12,14 +19,25 @@
 .conta-style{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 30px;
 }
 
+.estoque-style{
+    display: flex;
+    flex-direction: column;
+    margin: 0px -15px 0px 0px;
+    padding: 18px;
+    gap: 10px;
+}
+
 #options{
-    font-size: 14px;
+font-size: 14px;
   background-color: #f8f8f8;
   color: #666;
   padding: 8px;
+}
+
+.links-style a{
+    text-decoration: none;
 }
 

@@ -3,7 +3,7 @@
     flex-direction: row;
     
     align-items:center;
-    background-color: #0893B1;
+    background-color: #C8F7FE;
     margin: 0px;
     padding: 30px;
     border-radius: 0px 0px 30px 30px; ;
@@ -12,7 +12,7 @@
     
 .headerOptions p{
     font-size: 22px;
-    color: white;
+    color: #000000;
 }
 
 .optionsInfo{
@@ -23,15 +23,14 @@
     padding: 10px;
     gap: 15px;
     
-    
 }
 
 .headerOptions icon{
     height: 100px;
-
+   
 }
 
 .icon{
     font-size: 30px;
-    color: white;
+    color:#00343f;
 }

@@ -7,10 +7,10 @@
 .menuSide .menu{
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
-  height: 100vh;
+  height: 120vh;
   background: #005E73;
   color: #C8F7FE;
   font-size: 30px;
@@ -32,8 +32,11 @@
 }
 
 .menuSide .menu nav #exit{
-  text-decoration: underline !important;
-  color: #FF7C7C !important;
+  text-decoration: none !important;
+  color: #ffffff !important;
+  display: flex;
+  margin: 0px 0px 0px 40px;
+  align-items: center !important;
 }
 
 .menuSide #menuButton{

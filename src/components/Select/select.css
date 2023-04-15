@@ -1,10 +1,11 @@
 .select-style{
     margin-top: 15px;
     font-size: 20px;
-    border: 1px solid blue;
+    border: 1px solid #c4c4c4;
     border-radius: 12px;
     padding: 12px;
     width: 80%;
+    margin-bottom: 25px;
 }
 
 .select-style option{

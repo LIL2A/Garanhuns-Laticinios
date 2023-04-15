@@ -1,0 +1,11 @@
+.box-escrito p{
+    display: flex;
+    align-items: center;
+    background-color: #C8F7FE;
+    font-size: 20px;
+    padding: 8px 8px;
+    width: 320px;
+    margin: 12px 0px 0px 20px ;
+    height: 35px;
+    border-radius: 15px;
+}
