@@ -11,16 +11,16 @@ import { Link } from 'react-router-dom'
 
 const TelaDerivados = () => {
   return (
-    <div > 
-    <HeaderOptions texto={"Derivados"} img={<img src={gutgut} alt="Imagem de queijo"/>} />
-    <div className='product-style'> 
-    <ProductsBox img={<img src={Yogurte} alt="Imagem de queijo"/>} titulo={"Iogurte"} />
-    <ProductsBox img={<img src={Doce} alt="Imagem de queijo"/>} titulo={"Doce de Leite"}/>
-    <Link to="/TelaRegistros">
-      <AddButton />
-    </Link>
+    <div >
+      <HeaderOptions texto={"Derivados"} img={<img src={gutgut} alt="Imagem de queijo" />} />
+      <div className='product-style'>
+        <ProductsBox img={<img src={Yogurte} alt="Imagem de queijo" />} titulo={"Iogurte"} />
+        <ProductsBox img={<img src={Doce} alt="Imagem de queijo" />} titulo={"Doce de Leite"} />
+        {/* <Link to="/TelaRegistros">
+          <AddButton />
+        </Link> */}
+      </div>
     </div>
-  </div>
   )
 }
 

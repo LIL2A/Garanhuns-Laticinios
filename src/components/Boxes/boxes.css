@@ -5,7 +5,7 @@
 }
 
 
-.ordem-Servico{
+/* .ordem-Servico{
     background-color: #C8F7FE;
     display: flex;
     flex-direction: row;
@@ -13,14 +13,36 @@
     border-radius: 15px;
     color: #000000;
     margin: 2%;
+} */
+
+.ordem-Servico{
+    background-color: #C8F7FE;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    border-radius: 15px;
+    color: #000000;
+    margin: 2%;
 }
 
-.ordem-Servico p{
+/* .ordem-Servico p{
     font-size: 24px;
     display: flex;
     align-items: center;
     margin: 0px 0px 0px 20px;
     text-decoration: none;
+} */
+
+.ordem-Servico p{
+    font-size: 20px;
 }
 
+.paragrafo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
 
+.imagem-box{
+    max-width: 60%;
+}
