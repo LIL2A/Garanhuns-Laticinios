@@ -1,13 +1,20 @@
-.product-style{
+/* .product-style{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px 10px 0px 25px;
     gap: 12px;
+} */
+
+.product-style{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0px 0px 0px; 
 }
 
 .product-style img{
-    width: 90px;
+    max-width: 90px;
     padding: 20px;
 }
 
