@@ -21,9 +21,6 @@ const TelaPrincipal = () => {
         </Link>
         <Link to="/TelaDerivados">
           <MenuOpcoes nome={<img src={gutgut}  alt="Imagem de iogurte"/>} />
-        </Link> 
-        <Link to="/TelaManteiga">
-          <MenuOpcoes nome={<img src={butter}  alt="Imagem de manteiga"/>}/>
         </Link>
         
       </div>
