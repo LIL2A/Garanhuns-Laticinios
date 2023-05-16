@@ -12,7 +12,7 @@ const axios = require('axios');
 
 const TelaRegistros = () => {
   
-  const [dados, setDados] = useState("")
+  
   const [nome, setNome] = useState('') 
   const [ncm, setNcm] = useState('') 
   const [lote, setLote] = useState('') 
@@ -21,23 +21,29 @@ const TelaRegistros = () => {
   const [descricao, setDescricao] = useState('') 
   const [foto, setFoto] = useState('') 
 
-  const data = {
-    "nome": nome,
-    "ncm": ncm,
-    "lote": lote,
-    "validade": validade,
-    "classificacao": classificacao,
-    "descricao": descricao,
-    "foto": foto
-}
   
   useEffect(() => {
+    const data = {
+      "nome": nome,
+      "ncm": ncm,
+      "lote": lote,
+      "validade": validade,
+      "classificacao": classificacao,
+      "descricao": descricao,
+      "foto": foto
+  }
             axios.get('http://localhost:3000/produto', data)
                 .then((res: { data: any }) => {
-                    console.log("Getting from : ", res.data)
-                    setDados(res.data)
+                    console.log("Getting from : ", res.data.nome)
+                    setNome(res.data.nome)
+                    setNcm(res.data.ncm)
+                    setLote(res.data.lote)
+                    setValidade(res.data.validade)
+                    setClassificacao(res.data.classificacao)
+                    setDescricao(res.data.descricao)
+                    setFoto(res.data.foto)
                 }).catch((err: any) => console.log(err))
-        }, [setDados])
+        })
         
         
   return (
@@ -62,7 +68,7 @@ const TelaRegistros = () => {
             <option id="options"value="valor 3">Outros Derivados</option>
             <option id="options"value="valor 4">Manteigas</option>
           </Selects>
-          
+
           <Labels texto={'Descrição:'} />
           <InputTexto tipo={'text'} />
           <Labels texto={'Litros/Quantidade:'} />
